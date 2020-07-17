@@ -70,8 +70,8 @@ The folders and files you see in this repositories is how it is expected to be i
     |    └── reader
     |        └── CsvQueryProcessor.java              // This class is used to read data from CSV file
     |        └── QueryProcessingEngine.java          //abstract class containing three abstract methods that should be implemented in CsvQueryProcessor class
-    |    └── test                                     // all your test cases are written using JUnit, these test cases can be run by selecting Run As -> JUnit Test 
-    |
+    |    └── test                                     
+    |        └── DataMungerTest.java                // all your test cases are written using JUnit, these test cases can be run by selecting Run As -> JUnit Test 
     ├── .classpath                                    // This file is generated automatically while creating the project in eclipse
     |
     ├── .hobbes                                       // Hobbes specific config options, such as type of evaluation schema, type of tech stack etc., Have saved default values for convenience
@@ -89,7 +89,7 @@ The folders and files you see in this repositories is how it is expected to be i
 
 1. Clone the base boilerplate in the folder **assignment-solution-step3** of your local machine
      
-    `git clone https://gitlab-dev.stackroute.in/datamunger-java/step-3-boilerplate.git assignment-solution-step3`
+    `git clone https://gitlab.stackroute.in/stack_java_datamunging/DataMungerStep3_Boilerplate.git assignment-solution-step3`
 
 2. Navigate to assignment-solution-step3 folder
 
@@ -103,7 +103,7 @@ The folders and files you see in this repositories is how it is expected to be i
 
 5. Add your new repository reference as remote
 
-     `git remote add origin https://gitlab.training.com/{{yourusername}}/assignment-solution-step3.git`
+     `git remote add origin https://gitlab.stackroute.in/{{yourusername}}/assignment-solution-step3.git`
 
      **Note: {{yourusername}} should be replaced by your username from gitlab**
 
@@ -129,6 +129,13 @@ The folders and files you see in this repositories is how it is expected to be i
 > - The code must not be plagiarized, the mentors will randomly pick the submissions and may ask you to explain the solution
 > - The code must be properly indented, code structure maintained as per the boilerplate and properly commented
 > - Follow the problem statement and stories shared with you
+
+## MENTORS TO BEGIN REVIEW YOUR WORK ONLY AFTER 
+
+- You add the respective Mentor as a Reporter/Master into your Assignment Repository
+- You have checked your Assignment on the Automated Evaluation Tool - Hobbes (Check for necessary steps in your Boilerplate - README.md file. ) and got the required score - Check with your mentor about the Score you must achieve before it is accepted for Manual Submission. 
+- Intimate your Mentor on Slack and/or Send an Email to learner.support@stackroute.in - with your Git URL 
+- Once you done working and is ready for final submission.
 
 ### Further Instructions on Release
 
