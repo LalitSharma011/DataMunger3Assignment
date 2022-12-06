@@ -41,7 +41,7 @@ public class DataMungerTest {
 		display("successRetrieveHeaderTestCase", result.toString());
 	}
 
-	
+
 	@Test
 	public void testRetrieveHeaderFailure() throws IOException {
 		Header result = reader.getHeader();
